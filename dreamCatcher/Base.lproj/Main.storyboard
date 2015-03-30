@@ -70,7 +70,7 @@
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Dream Catcher" id="ilx-r3-rcC">
-                        <barButtonItem key="leftBarButtonItem" systemItem="edit" id="LDL-eS-4bJ">
+                        <barButtonItem key="leftBarButtonItem" title="Edit" id="LDL-eS-4bJ">
                             <connections>
                                 <action selector="onEditButtonTapped:" destination="vXZ-lx-hvc" id="dar-ZJ-si5"/>
                             </connections>
@@ -98,6 +98,7 @@
                         <viewControllerLayoutGuide type="bottom" id="YeZ-fX-mdf"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="xx7-4Q-csa">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yQc-He-iNy">
@@ -119,10 +120,10 @@
                                 <exclude reference="yQc-He-iNy"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="sQD-Ff-2mV"/>
                                 <exclude reference="5YI-9H-Bqe"/>
                                 <exclude reference="DTn-RM-gBf"/>
                                 <exclude reference="GoM-PE-Xtp"/>
-                                <exclude reference="sQD-Ff-2mV"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -130,10 +131,10 @@
                                 <include reference="yQc-He-iNy"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="sQD-Ff-2mV"/>
                                 <include reference="5YI-9H-Bqe"/>
                                 <include reference="DTn-RM-gBf"/>
                                 <include reference="GoM-PE-Xtp"/>
-                                <include reference="sQD-Ff-2mV"/>
                             </mask>
                         </variation>
                     </view>

@@ -136,7 +136,7 @@
      self.editing = true;
      [self.tableView setEditing:true animated:true];
      sender.style = UIBarButtonItemStyleDone;
-     sender.title = @"Edit";
+     sender.title = @"Done";
 
      }
 
